@@ -1,9 +1,22 @@
-body {
-    font-family: sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 50px;
+:root {
+    --primaryColor: #adf0d4;
+    --secondaryColor: #1fd8a4;
+    --bgColor: #0d1512;
 }
-h1 {
-    color: #333;
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Inter', sans-serif;
+}
+
+
+body {
+    background:  var(--bgColor);
+    color: var(--primaryColor);
+}
+
+.darkerText{
+    color: var(--secondaryColor);
 }
